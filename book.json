@@ -1,0 +1,17 @@
+{
+    "plugins": ["mathjax"],
+    "pluginsConfig": {
+        "fontSettings": {
+            "theme": "sepia", "night" or "white",
+            "family": "serif" or "sans",
+            "size": 1 to 4
+        }
+    },
+    "pdf": {
+        "pageNumbers": true,
+        "fontSize": 12,
+        "paperSize": "a4",
+        "headerTemplate": null,
+        "footerTemplate": null
+    }
+}
